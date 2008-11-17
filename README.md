@@ -8,12 +8,12 @@ Installation
 ============
 
 * Install [django-dzenlog][].
-* Place `dzenlog_text` somewhere in your python path.
+* Place `dzenlog_link` somewhere in your python path or install it from pypi: `easy_install dzenlog-link`.
 * Add `dzenlog_link` to yours `INSTALLED_APPS`.
 * Run `./manager.py syncdb`
 * Add this line to the URLConf:
 
-        (r'^text/', include('dzenlog_link.urls'))
+        (r'^links/', include('dzenlog_link.urls'))
 
 * Enjoy link posts in your blog.
 
