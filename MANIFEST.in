@@ -1,1 +1,1 @@
-recursive-include dzenlog_text/templates *.html
+recursive-include dzenlog_link/templates *.html

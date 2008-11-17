@@ -2,4 +2,4 @@
 .*.swp
 build
 dist
-dzenlog_text.egg-info
+*.egg-info
