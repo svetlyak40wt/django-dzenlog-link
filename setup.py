@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'dzenlog-link',
-    version = '0.1.0',
+    version = '0.1.1',
     description = 'This is a simple application to post links to the dzenlog.',
     keywords = 'django apps blogging dzenlog',
     license = 'New BSD License',
