@@ -13,3 +13,6 @@ class LinkPost(GeneralPost):
     url = models.URLField(_('URL'), verify_exists = not settings.DEBUG)
     description = models.TextField(_('URL\'s description'), max_length = 255)
 
+    class Meta:
+        verbose_name = _('link post')
+        verbose_name_plural = _('link posts')
